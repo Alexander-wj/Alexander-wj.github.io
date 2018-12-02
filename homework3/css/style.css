@@ -68,6 +68,30 @@ ul:first-child{
 	font: bold 53px Arial, sans-serif;
 }
 
+/*Line по бокам have a good day*/
+h1 {
+	position: relative;
+	font-size: 30px;
+	display: inline-block;
+	padding:0 15px;
+}
+
+h1:before, h1:after {
+	position: absolute;
+	top: 50%;
+	width: 150px;
+	height: 3px;
+	content: '';
+	background-color: #68767a;
+	opacity: 0.6;
+	left:-150px;
+}
+
+h1:after {
+left: 100%;
+}
+/*------*/
+
 #home h3 {
 	margin-bottom: 85px;
 	text-transform: uppercase;
@@ -190,3 +214,4 @@ h5.title {
 	background: #34ab96;
 	color: #fff;
 }
+
