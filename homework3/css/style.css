@@ -12,6 +12,7 @@ ol, ul {
 
 a, a:hover {
 	text-decoration: none;
+	color: #fff;
 }
 
 .container {
@@ -30,9 +31,6 @@ ul:first-child{
 	padding-left: 0;
 }
 
-.logo {
-	
-}
 .nav {
 	padding: 47px;
 }
@@ -215,3 +213,90 @@ h5.title {
 	color: #fff;
 }
 
+.supported-template{
+	background: #eeeeef;
+}
+
+.sup-item {
+	display: flex;
+	align-items: center;
+}
+
+.sup-item h5 {
+	font: bold 18px Arial, sans-Serif;
+	text-transform: uppercase;
+	padding-left: 15px;
+	color: #68767a;
+}
+
+.suported-item span{
+	font: 14px Arial, sans-Serif;
+	color: #787b80;
+}
+
+.btn-sup {
+	display: block;
+	justify-content: flex-start;
+	margin: 30px 20px;
+	padding: 10px 10px;
+	color: #f5f5f5;
+	background: #d2d5da;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+/*---*/
+
+#layered-psd {
+	background: #f5f5f5;
+}
+
+.layered-psd-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.layered-psd-item {
+	display: block;
+	width: 40%;
+	padding: 0 20px;
+}
+
+.layered-item-footer h5 {
+	text-transform: uppercase;
+}
+
+.layered-item-footer h5.title{
+	margin-bottom: 50px;
+}
+
+.layered-item-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.link-info a{
+	display: block;
+	color: #50c3af; 
+	margin: 30px 0;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font: 14px Arial, sans-serif;
+	cursor: pointer;
+}
+
+.link-info:nth-last-child(1),
+.link-info:nth-last-child(2) {
+	margin-bottom: 0;
+}
+
+.link-info a:hover {
+	color: #34ab96;
+}
