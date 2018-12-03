@@ -300,3 +300,70 @@ h5.title {
 .link-info a:hover {
 	color: #34ab96;
 }
+
+/*---*/
+
+#send-information {
+	background: #eeeeef;
+}
+
+.send-information-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.read-more-item {
+	display: block;
+	width: 40%;
+}
+
+.send-item {
+	display: flex;
+	align-items: center;
+}
+
+.send-item h5 {
+	font: bold 18px Arial, sans-serif;
+	text-transform: uppercase;
+	padding-left: 15px;
+	color: #384048;
+}
+
+.read-item-footer {
+	padding: 10px;
+}
+
+.read-item-footer span{
+	color: #787b80;
+	font: 14px Arial, sans-serif;
+	line-height: 25px;
+}
+
+
+.btn-read {
+	display: block;
+	justify-content: flex-start;
+	background: #50c3af; 
+	margin: 30px 0;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	font: 14px Arial, sans-serif;
+	color: #f5f5f5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.btn-read:nth-last-child(1),
+.btn-read:nth-last-child(2) {
+	margin-bottom: 0;
+}
+
+.btn-read:hover {
+	background: #34ab96;
+	color: #fff;
+}
