@@ -49,8 +49,62 @@ ul:first-child{
 	color: #50c3af; 
 }
 
+@media (min-width: 320px){
+  
+  /*---*/
+  
+  /*---*/
+
+  #header {
+     
+
+  }
+
+  #home { 
+    width: 600px;
+  }
+
+  #servises {
+    width: 600px;
+    
+  }
+  .container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .servises-item {
+    
+    width: 600px;
+  }
+
+  #more-information {
+    width: 600px;
+  }
+  #supported-template {
+    width: 600px;
+  }
+  #layered-psd {
+    width: 600px;
+  }
+  #send-information {
+    width: 600px;
+  }
+  .article {
+    width: 600px;
+  }
+  .sponsor-data {
+    width: 600px;
+  }
+  .footer {
+    width: 600px;
+  }
+}
+
 #home {
-	
 	height: 480px;
 	padding-top: 245px;
 	text-align: center;
